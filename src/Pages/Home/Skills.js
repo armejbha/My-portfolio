@@ -9,8 +9,8 @@ const Skills = () => {
         { _id: 5, name: 'SASS', description: 'Preprocessor scripting language Complied into CSS' }
     ]
     return (
-        <div>
-            <h2 className='text-center font-bold text-4xl mt-16 mb-8'>What I Know</h2>
+        <div className='my-16'>
+            <h2 className='text-center font-bold text-4xl mt-8'>What I Know</h2>
             <div className='grid md:grid-cols-5 gap-5'>
                 {
                     expertes.map(expert =>
