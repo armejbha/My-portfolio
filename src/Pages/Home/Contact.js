@@ -5,8 +5,7 @@ const Contact = () => {
         <div className='mt-64 bg-base-200 mb-12'>
             <div className='md:w-3/12 w-11/12 mx-auto py-8 '>
                 <div className='text-center'>
-                    <h4 className='text-sm font-bold'>Contact Us</h4>
-                    <h1 className='text-2xl text-white'>Stay Connected with Us</h1>
+                    <h4 className='text-sm font-bold'>Contact Me</h4>
                 </div>
                 <form className='mt-4'>
                     <input className='block w-full outline-0 px-4 py-2 rounded-lg' type="email" name="email" id="" placeholder='Email Address' />
