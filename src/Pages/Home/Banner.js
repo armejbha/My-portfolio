@@ -12,7 +12,7 @@ const Banner = () => {
                     <h1 className="text-4xl md:text-3xl font-bold">Junior MERN</h1>
                     <h1 className="text-4xl md:text-3xl font-bold">Stack Developer</h1>
                     <p className="py-3">Hi,Webcome to my portfolio website.If you want know about me more please scroll below.</p>
-                    <button className="btn btn-primary bg-gradient-to-r from-secondary to-primary uppercase font-bold text-white">Get Started</button>
+                    <button className="btn btn-primary bg-gradient-to-r from-secondary to-primary uppercase font-bold text-white">SEE MORE</button>
                 </div>
             </div>
         </div>
