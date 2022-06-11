@@ -3,13 +3,16 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const menuItems = <>
-        <li className='font-bold'><Link to='/'>Home</Link></li>
-        <li className='font-bold'><Link to='/'>Skills</Link></li>
-        <li className='font-bold'><Link to='/'>Projects</Link></li>
-        <li className='font-bold'><Link to='/'>Contact</Link></li>
+        <li className='font-bold'><Link to='/home'>Home</Link></li>
+        <li className='font-bold'><Link to='/allskill'>Skills</Link></li>
+        <li className='font-bold'><a href='home#projects'>Projects</a></li>
+        <li className='font-bold'><a href='home#contact'>Contact</a></li>
+        <li className='font-bold'><Link to='/about'>About</Link></li>
+        <li className='font-bold'><Link to='/blog'>Blog</Link></li>
+        <li><a target="_blank" href="https://drive.google.com/uc?id=1TDHyw9bviDVQlmPezhJtj8eV2IhHPLQf&export=download" className="btn btn-primary bg-gradient-to-r from-secondary to-primary uppercase font-bold text-white">Download Resume</a></li>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 sticky top-0">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">

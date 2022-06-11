@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "name": "Tools Manufacter",
+        "live": "https://manufacter-e2227.web.app/",
+        "client": "https://github.com/armejbha/tools-manufacter-client",
+        "server": "https://github.com/armejbha/tools-manufacter-server",
+        "description": "This website have two type of users normal and admin.Admin can add new product cancel purchase order.It also include firebase authentication systerm.Normal user update their profile.",
+        "img": "https://i.ibb.co/r7qpmTK/Screenshot-2022-06-11-174244.png",
+        "purpose": "A Website for esstial home tools seller",
+        "link": "/manufacter"
+    },
+    {
+        "id": 2,
+        "name": "Laptop Warehouse",
+        "live": "https://manufacter-e2227.web.app/",
+        "client": "https://github.com/armejbha/laptop-warehouse-client",
+        "server": "https://github.com/armejbha/laptop-warehouse-server",
+        "description": "This is warehouse management website.There main feature is Manage Items, Product Update, Add Items and secure authentication systerm.It's implement firebase authentication systerm",
+        "img": "https://i.ibb.co/18XPNRj/laptop.png",
+        "purpose": "A Website for warehouse management",
+        "link": "/warehouse"
+    },
+    {
+        "id": 3,
+        "name": "Financial Consaltant",
+        "live": "https://manufacter-e2227.web.app/",
+        "client": "https://github.com/armejbha/laptop-warehouse-client",
+        "server": "https://github.com/armejbha/laptop-warehouse-client",
+        "description": "This is financial support website.Here you can get any financial  support package.It's inlclude firebase authentication systerm.If you don't sign in you can't booking any financial support..",
+        "img": "https://i.ibb.co/BBxXt5Q/financial.png",
+        "purpose": "A Website for Financial support consaltant",
+        "link": "/financial"
+    }
+]
